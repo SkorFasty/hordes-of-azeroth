@@ -21,6 +21,7 @@ CreditsFrame.xml
 BonkAccount.lua
 BonkStats.lua
 BonkGlueLocale.lua
+BonkGlueLocaleRuRU.lua
 BonkGlueLocaleZhCN.lua
 BonkGlue.xml
 BonkCoop.xml

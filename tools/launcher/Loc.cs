@@ -18,6 +18,7 @@ namespace HordesOfAzeroth.Launcher
 
         static readonly Dictionary<string, Dictionary<string, string>> Tables = new Dictionary<string, Dictionary<string, string>>
         {
+            ["ruRU"] = LocRuRU.Strings,
             ["zhCN"] = LocZhCN.Strings,
         };
 

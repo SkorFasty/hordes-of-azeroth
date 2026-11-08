@@ -20,6 +20,7 @@ namespace HordesOfAzeroth.Launcher
         public static readonly (string Code, string Name)[] Languages =
         {
             ("enUS", "English"),
+            ("ruRU", "Русский"),
             ("zhCN", "简体中文"),
         };
 
@@ -42,6 +43,7 @@ namespace HordesOfAzeroth.Launcher
             Dictionary<string, string> missing = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
             Dictionary<string, string> required = new Dictionary<string, string>
             {
+                [LanguageSetting] = DefaultLanguage,
                 ["readEULA"] = "1",
                 ["readTOS"] = "1",
                 ["realmName"] = realmName,

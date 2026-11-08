@@ -168,6 +168,7 @@ end
 
 UI.LANGUAGES = {
     { value = "enUS", label = "English" },
+    { value = "ruRU", label = "Русский" },
     { value = "zhCN", label = "简体中文" },
 }
 

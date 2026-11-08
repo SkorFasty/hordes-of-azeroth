@@ -1,0 +1,777 @@
+{
+  "locale": "ruRU",
+  "notes": "Термины, существующие в vanilla, используют официальные названия ruRU-клиента 1.12.1. Термины с \"check\": false даны для справки: инструмент не предупреждает, если в переводе нет их точной формы. Остальные заставляют инструмент предупреждать, когда в английском есть термин, а в переводе нет его согласованной формы.",
+  "terms": [
+    {
+      "en": "run",
+      "zh": "вылазка",
+      "check": false,
+      "note": "вылазка, не глагол"
+    },
+    {
+      "en": "Run Master",
+      "zh": "Мастер вылазок"
+    },
+    {
+      "en": "floor",
+      "zh": "этаж",
+      "check": false,
+      "note": "Этаж 3; подпись «Floor » — «Этаж »"
+    },
+    {
+      "en": "floor boss",
+      "zh": "босс этажа",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "mini-boss",
+      "zh": "мини-босс",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "mini-bosses",
+      "zh": "мини-боссы",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "elite",
+      "zh": "элита",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "elites",
+      "zh": "элиты",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "affix",
+      "zh": "аффикс",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "affixes",
+      "zh": "аффиксы",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "stage",
+      "zh": "этап",
+      "check": false
+    },
+    {
+      "en": "rank",
+      "zh": "ранг",
+      "check": false,
+      "note": "Ранг 3"
+    },
+    {
+      "en": "Inn",
+      "zh": "таверна"
+    },
+    {
+      "en": "Innkeeper",
+      "zh": "хозяин таверны"
+    },
+    {
+      "en": "Dash",
+      "zh": "рывок"
+    },
+    {
+      "en": "Valor",
+      "zh": "Доблесть",
+      "check": false,
+      "note": "аддон ищет это слово; формы: доблесть / доблести"
+    },
+    {
+      "en": "Darkmoon Ticket",
+      "zh": "Жетон Новолуния"
+    },
+    {
+      "en": "Darkmoon Tickets",
+      "zh": "Жетоны Новолуния"
+    },
+    {
+      "en": "Darkmoon Card",
+      "zh": "Карта Новолуния"
+    },
+    {
+      "en": "Darkmoon Deck",
+      "zh": "Колода Новолуния"
+    },
+    {
+      "en": "Darkmoon Faire",
+      "zh": "Ярмарка Новолуния"
+    },
+    {
+      "en": "Glyph",
+      "zh": "Символ"
+    },
+    {
+      "en": "Mastery",
+      "zh": "Искусность",
+      "check": false,
+      "note": "система Искусности; старые таланты вида … Mastery — «… мастерство»"
+    },
+    {
+      "en": "Dark Fortune",
+      "zh": "Тёмная судьба"
+    },
+    {
+      "en": "Sayge",
+      "zh": "Сейдж"
+    },
+    {
+      "en": "Ley Line",
+      "zh": "Силовая линия"
+    },
+    {
+      "en": "Moonwell",
+      "zh": "Лунный колодец"
+    },
+    {
+      "en": "Extraction Vault",
+      "zh": "Хранилище извлечения"
+    },
+    {
+      "en": "Extraction Pillar",
+      "zh": "Столп извлечения"
+    },
+    {
+      "en": "Hearthstone",
+      "zh": "Камень возвращения"
+    },
+    {
+      "en": "level-up choice",
+      "zh": "выбор при повышении уровня",
+      "check": false,
+      "note": "выбор при повышении уровня"
+    },
+    {
+      "en": "reroll",
+      "zh": "перевыбор",
+      "check": false,
+      "note": "перевыбор при повышении уровня; перевыбор товара у бродячего торговца — «обновление»"
+    },
+    {
+      "en": "banish",
+      "zh": "изгнание",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "skip",
+      "zh": "пропуск",
+      "check": false
+    },
+    {
+      "en": "starter spell",
+      "zh": "стартовое заклинание",
+      "anyCase": true
+    },
+    {
+      "en": "spell slot",
+      "zh": "ячейка заклинаний",
+      "anyCase": true
+    },
+    {
+      "en": "passive",
+      "zh": "пассивная способность",
+      "check": false
+    },
+    {
+      "en": "evolution",
+      "zh": "эволюция",
+      "anyCase": true
+    },
+    {
+      "en": "Swarmer",
+      "zh": "Роевик"
+    },
+    {
+      "en": "Grunt",
+      "zh": "Солдат"
+    },
+    {
+      "en": "Bruiser",
+      "zh": "Громила"
+    },
+    {
+      "en": "Caster",
+      "zh": "Заклинатель"
+    },
+    {
+      "en": "Charger",
+      "zh": "Налётчик"
+    },
+    {
+      "en": "Veteran",
+      "zh": "Ветеран"
+    },
+    {
+      "en": "Endless",
+      "zh": "Бесконечный"
+    },
+    {
+      "en": "Normal",
+      "zh": "Обычный",
+      "note": "difficulty; the addon matches the name"
+    },
+    {
+      "en": "Heroic",
+      "zh": "Героический",
+      "except": [
+        "Heroic Strike"
+      ],
+      "note": "difficulty; the addon matches the name"
+    },
+    {
+      "en": "Mythic",
+      "zh": "Эпохальный",
+      "note": "difficulty; the addon matches the name"
+    },
+    {
+      "en": "treasure goblin",
+      "zh": "гоблин-сокровищник",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "wandering vendor",
+      "zh": "бродячий торговец",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "bounty",
+      "zh": "награда",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "sandbox",
+      "zh": "песочница",
+      "anyCase": true,
+      "except": [
+        ".bonk sandbox"
+      ],
+      "check": false
+    },
+    {
+      "en": "Challenge Altar",
+      "zh": "Алтарь испытаний"
+    },
+    {
+      "en": "Summoning Stone",
+      "zh": "Камень призыва"
+    },
+    {
+      "en": "training dummy",
+      "zh": "тренировочный манекен",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "Scrap",
+      "zh": "Лом",
+      "check": false,
+      "note": "{1} Лома; без сокращения"
+    },
+    {
+      "en": "Tier",
+      "zh": "T",
+      "check": false,
+      "note": "T3 как метка; в предложении — «на ступень выше»"
+    },
+    {
+      "en": "Quartermaster",
+      "zh": "Квартирмейстер"
+    },
+    {
+      "en": "Gear Vendor",
+      "zh": "Торговец снаряжением"
+    },
+    {
+      "en": "Refit",
+      "zh": "Переделка",
+      "anyCase": true
+    },
+    {
+      "en": "ban",
+      "zh": "запрет"
+    },
+    {
+      "en": "Spellbook Keeper",
+      "zh": "Хранитель книги заклинаний"
+    },
+    {
+      "en": "Climb",
+      "zh": "Восхождение",
+      "check": false
+    },
+    {
+      "en": "Push",
+      "zh": "Продвижение",
+      "check": false
+    },
+    {
+      "en": "Peak",
+      "zh": "Пик",
+      "check": false
+    },
+    {
+      "en": "Determination",
+      "zh": "Решимость"
+    },
+    {
+      "en": "Instant",
+      "zh": "Мгновенно",
+      "check": false
+    },
+    {
+      "en": "Killing blow",
+      "zh": "Добивающий удар",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "overkill",
+      "zh": "избыточный урон",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "chest",
+      "zh": "сундук",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "Chill",
+      "zh": "Озноб",
+      "except": [
+        "Winter's Chill"
+      ],
+      "check": false,
+      "note": "ключевое слово"
+    },
+    {
+      "en": "Frozen",
+      "zh": "Заморожен",
+      "check": false,
+      "note": "ключевое слово"
+    },
+    {
+      "en": "Burning",
+      "zh": "Горение",
+      "check": false,
+      "note": "ключевое слово"
+    },
+    {
+      "en": "Bleed",
+      "zh": "Кровотечение",
+      "check": false,
+      "note": "ключевое слово"
+    },
+    {
+      "en": "Poison",
+      "zh": "Яд",
+      "except": [
+        "Poison damage",
+        "Deadly Poison",
+        "Instant Poison",
+        "Crippling Poison",
+        "Numbing Poison",
+        "Slow Poison"
+      ],
+      "check": false,
+      "note": "ключевое слово; урон от яда — Poison damage"
+    },
+    {
+      "en": "Poison damage",
+      "zh": "урон от яда",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "Decay",
+      "zh": "Гниение",
+      "check": false,
+      "note": "ключевое слово"
+    },
+    {
+      "en": "Agony",
+      "zh": "Агония",
+      "check": false,
+      "note": "ключевое слово"
+    },
+    {
+      "en": "Moonfire",
+      "zh": "Лунный огонь",
+      "note": "ключевое слово и заклинание"
+    },
+    {
+      "en": "Static",
+      "zh": "Статика",
+      "check": false,
+      "note": "ключевое слово"
+    },
+    {
+      "en": "Dazed",
+      "zh": "Ошеломление",
+      "check": false,
+      "note": "ключевое слово"
+    },
+    {
+      "en": "Fire Vulnerability",
+      "zh": "Уязвимость к огню",
+      "check": false
+    },
+    {
+      "en": "Nature Vulnerability",
+      "zh": "Уязвимость к природе",
+      "check": false
+    },
+    {
+      "en": "Shadow Vulnerability",
+      "zh": "Уязвимость к тени",
+      "check": false
+    },
+    {
+      "en": "Sunder Armor",
+      "zh": "Раскол брони",
+      "check": false,
+      "note": "ключевое слово; заклинание воина называется так же"
+    },
+    {
+      "en": "Hunter's Mark",
+      "zh": "Метка охотника",
+      "check": false
+    },
+    {
+      "en": "Shapeshift",
+      "zh": "Превращение",
+      "check": false,
+      "note": "заклинание друида"
+    },
+    {
+      "en": "Power",
+      "zh": "Сила",
+      "check": false,
+      "note": "характеристика; многие названия заклинаний содержат Power"
+    },
+    {
+      "en": "Haste",
+      "zh": "Скорость",
+      "check": false
+    },
+    {
+      "en": "Area",
+      "zh": "Область",
+      "check": false
+    },
+    {
+      "en": "Count",
+      "zh": "Количество",
+      "check": false
+    },
+    {
+      "en": "Armor",
+      "zh": "Броня",
+      "except": [
+        "Sunder Armor",
+        "Frost Armor",
+        "Ice Armor",
+        "Mage Armor",
+        "Demon Armor",
+        "Molten Armor"
+      ],
+      "check": false
+    },
+    {
+      "en": "Luck",
+      "zh": "Удача",
+      "check": false
+    },
+    {
+      "en": "Gold",
+      "zh": "Золото",
+      "check": false
+    },
+    {
+      "en": "Experience",
+      "zh": "Опыт",
+      "except": [
+        "Experience crystals",
+        "Experience Pickup"
+      ],
+      "check": false,
+      "note": "опыт; Experience crystals и Experience Pickup переводятся иначе"
+    },
+    {
+      "en": "movement speed",
+      "zh": "скорость передвижения",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "maximum health",
+      "zh": "максимальный запас здоровья",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "pickup range",
+      "zh": "радиус подбора",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "dodge chance",
+      "zh": "шанс уклонения",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "critical strike chance",
+      "zh": "шанс критического удара",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "critical strike damage",
+      "zh": "урон критического удара",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "Common",
+      "zh": "Обычное",
+      "check": false,
+      "note": "rarity"
+    },
+    {
+      "en": "Uncommon",
+      "zh": "Необычное",
+      "check": false,
+      "note": "rarity"
+    },
+    {
+      "en": "Rare",
+      "zh": "Редкое",
+      "check": false,
+      "note": "rarity"
+    },
+    {
+      "en": "Epic",
+      "zh": "Эпическое",
+      "check": false,
+      "note": "rarity"
+    },
+    {
+      "en": "Legendary",
+      "zh": "Легендарное",
+      "check": false,
+      "note": "rarity"
+    },
+    {
+      "en": "Physical",
+      "zh": "Физический",
+      "check": false
+    },
+    {
+      "en": "Holy",
+      "zh": "Свет",
+      "check": false,
+      "note": "the school; Holy Word and other spell names differ"
+    },
+    {
+      "en": "Fire",
+      "zh": "Огонь",
+      "check": false
+    },
+    {
+      "en": "Nature",
+      "zh": "Природа",
+      "check": false
+    },
+    {
+      "en": "Frost",
+      "zh": "Лёд",
+      "check": false
+    },
+    {
+      "en": "Shadow",
+      "zh": "Тень",
+      "check": false
+    },
+    {
+      "en": "Arcane",
+      "zh": "Тайная магия",
+      "except": [
+        "Arcane Explosion"
+      ],
+      "check": false
+    },
+    {
+      "en": "Arcane Explosion",
+      "zh": "Волшебный взрыв",
+      "note": "the vanilla client's name"
+    },
+    {
+      "en": "Sinister Strike",
+      "zh": "Коварный удар"
+    },
+    {
+      "en": "Durgan Ironbelly",
+      "zh": "Дурган Железнобрюх"
+    },
+    {
+      "en": "Zixil",
+      "zh": "Зиксил"
+    },
+    {
+      "en": "Gizzik Bonkwhistle",
+      "zh": "Гиззик Бонксвистл"
+    },
+    {
+      "en": "Tarn Oakhoof",
+      "zh": "Тарн Дубовое Копыто"
+    },
+    {
+      "en": "Varrok Steelbrand",
+      "zh": "Варрок Стальное Клеймо"
+    },
+    {
+      "en": "Grand Magus",
+      "zh": "Верховный магус"
+    },
+    {
+      "en": "Hordes of Azeroth",
+      "zh": "Орды Азерота",
+      "note": "название игры; имя мира остаётся английским, потому что задаёт папки сохранений и список миров"
+    },
+    {
+      "en": "Item Level",
+      "zh": "Уровень предмета",
+      "anyCase": true,
+      "note": "ilvl также «Уровень предмета»; заменил тиры в 0.6.0"
+    },
+    {
+      "en": "finale",
+      "zh": "финал",
+      "anyCase": true,
+      "except": [
+        "Grand Finale"
+      ],
+      "check": false,
+      "note": "бесконечная часть после 3-го этапа (0.6.0)"
+    },
+    {
+      "en": "stage boss",
+      "zh": "босс этапа",
+      "anyCase": true,
+      "check": false
+    },
+    {
+      "en": "Ready check",
+      "zh": "Проверка готовности",
+      "anyCase": true
+    },
+    {
+      "en": "Foresight",
+      "zh": "Предвидение"
+    },
+    {
+      "en": "level",
+      "zh": "уровень",
+      "check": false,
+      "note": "уровень сложности: «Эпохальный 5»; уровень персонажа — «уровень»"
+    },
+    {
+      "en": "party",
+      "zh": "группа",
+      "check": false,
+      "note": "кооперативная группа"
+    },
+    {
+      "en": "host",
+      "zh": "хозяин",
+      "check": false,
+      "note": "игрок, создавший кооперативное лобби"
+    },
+    {
+      "en": "lobby",
+      "zh": "лобби",
+      "check": false
+    },
+    {
+      "en": "revive",
+      "zh": "воскрешение",
+      "check": false
+    },
+    {
+      "en": "downed",
+      "zh": "повержен",
+      "check": false,
+      "note": "кооп: повержен, но не мёртв; bled out — «истёк кровью»"
+    },
+    {
+      "en": "Ironman",
+      "zh": "Железный человек",
+      "check": false,
+      "note": "Железный персонаж / Железный режим"
+    },
+    {
+      "en": "Range Ring",
+      "zh": "Кольцо радиуса",
+      "anyCase": true
+    },
+    {
+      "en": "Leaderboard",
+      "zh": "Таблица лидеров",
+      "anyCase": true
+    },
+    {
+      "en": "Highest Clear",
+      "zh": "Лучшее прохождение",
+      "anyCase": true
+    },
+    {
+      "en": "Auto Open Chests",
+      "zh": "Автооткрытие сундуков",
+      "anyCase": true
+    },
+    {
+      "en": "Pause on Rewards",
+      "zh": "Пауза при наградах",
+      "anyCase": true
+    },
+    {
+      "en": "Reward Card Scale",
+      "zh": "Масштаб карт наград",
+      "anyCase": true
+    },
+    {
+      "en": "Party Spell Effects",
+      "zh": "Эффекты заклинаний группы",
+      "anyCase": true
+    },
+    {
+      "en": "Rewritten Fate",
+      "zh": "Изменённая судьба"
+    },
+    {
+      "en": "placement range",
+      "zh": "дальность размещения",
+      "anyCase": true,
+      "check": false
+    }
+  ]
+}

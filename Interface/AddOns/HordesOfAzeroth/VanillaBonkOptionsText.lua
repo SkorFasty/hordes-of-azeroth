@@ -161,18 +161,6 @@ if VanillaBonkLocale.language ~= "enUS" then
     for name, text in pairs(STRINGS) do
         setglobal(name, text)
     end
-    setglobal("OPTION_TOOLTIP_SHOW_MULTIBAR1", "显示左下方动作条。")
-    setglobal("OPTION_TOOLTIP_SHOW_MULTIBAR2", "显示右下方动作条。")
-    setglobal("OPTION_TOOLTIP_SHOW_MULTIBAR3", "显示右侧动作条。")
-    setglobal("OPTION_TOOLTIP_SHOW_MULTIBAR4", "显示第二条右侧动作条。")
-    setglobal("OPTION_TOOLTIP_ALWAYS_SHOW_MULTIBARS", "始终显示动作条。")
-    setglobal("OPTION_TOOLTIP_LOCK_ACTIONBAR", "锁定动作条，防止拖动。")
-    setglobal("OPTION_TOOLTIP_UI_SCALE", "调整界面元素的大小。")
-    setglobal("OPTION_TOOLTIP_FARCLIP", "调整地形可见距离。")
-    setglobal("OPTION_TOOLTIP_ENVIRONMENT_DETAIL", "调整环境细节。")
-    setglobal("OPTION_TOOLTIP_SPELL_DETAIL", "调整法术效果的细节程度。")
-    setglobal("OPTION_TOOLTIP_WEATHER_DETAIL", "调整天气效果强度。")
-    setglobal("OPTION_TOOLTIP_VERTICAL_SYNC", "将帧率与显示器刷新率同步。")
 
     SetText("UIOptionsFrameTitle", INTERFACE_TITLE)
     for _, prefix in ipairs({ "UIOptionsFrame", "SoundOptionsFrame" }) do
@@ -208,6 +196,36 @@ if VanillaBonkLocale.language ~= "enUS" then
         end
     end
     TranslateSoundTitle(soundTitle)
+end
+
+if VanillaBonkLocale.language == "zhCN" then
+        setglobal("OPTION_TOOLTIP_SHOW_MULTIBAR1", "显示左下方动作条。")
+        setglobal("OPTION_TOOLTIP_SHOW_MULTIBAR2", "显示右下方动作条。")
+        setglobal("OPTION_TOOLTIP_SHOW_MULTIBAR3", "显示右侧动作条。")
+        setglobal("OPTION_TOOLTIP_SHOW_MULTIBAR4", "显示第二条右侧动作条。")
+        setglobal("OPTION_TOOLTIP_ALWAYS_SHOW_MULTIBARS", "始终显示动作条。")
+        setglobal("OPTION_TOOLTIP_LOCK_ACTIONBAR", "锁定动作条，防止拖动。")
+        setglobal("OPTION_TOOLTIP_UI_SCALE", "调整界面元素的大小。")
+        setglobal("OPTION_TOOLTIP_FARCLIP", "调整地形可见距离。")
+        setglobal("OPTION_TOOLTIP_ENVIRONMENT_DETAIL", "调整环境细节。")
+        setglobal("OPTION_TOOLTIP_SPELL_DETAIL", "调整法术效果的细节程度。")
+        setglobal("OPTION_TOOLTIP_WEATHER_DETAIL", "调整天气效果强度。")
+        setglobal("OPTION_TOOLTIP_VERTICAL_SYNC", "将帧率与显示器刷新率同步。")
+end
+
+if VanillaBonkLocale.language == "ruRU" then
+    setglobal("OPTION_TOOLTIP_SHOW_MULTIBAR1", "Показывает нижнюю левую панель действий.")
+    setglobal("OPTION_TOOLTIP_SHOW_MULTIBAR2", "Показывает нижнюю правую панель действий.")
+    setglobal("OPTION_TOOLTIP_SHOW_MULTIBAR3", "Показывает правую панель действий.")
+    setglobal("OPTION_TOOLTIP_SHOW_MULTIBAR4", "Показывает вторую правую панель действий.")
+    setglobal("OPTION_TOOLTIP_ALWAYS_SHOW_MULTIBARS", "Всегда показывать панели действий.")
+    setglobal("OPTION_TOOLTIP_LOCK_ACTIONBAR", "Закрепляет панели действий, чтобы их нельзя было перетаскивать.")
+    setglobal("OPTION_TOOLTIP_UI_SCALE", "Изменяет размер элементов интерфейса.")
+    setglobal("OPTION_TOOLTIP_FARCLIP", "Изменяет дальность отображения ландшафта.")
+    setglobal("OPTION_TOOLTIP_ENVIRONMENT_DETAIL", "Изменяет детализацию окружения.")
+    setglobal("OPTION_TOOLTIP_SPELL_DETAIL", "Изменяет детализацию эффектов заклинаний.")
+    setglobal("OPTION_TOOLTIP_WEATHER_DETAIL", "Изменяет интенсивность погодных эффектов.")
+    setglobal("OPTION_TOOLTIP_VERTICAL_SYNC", "Синхронизирует частоту кадров с частотой обновления монитора.")
 end
 
 local BENILLA_OPTIONS_ZHCN = {
@@ -347,10 +365,149 @@ local BENILLA_OPTIONS_ZHCN = {
     ["yards"] = "码",
 }
 
+local BENILLA_OPTIONS_RURU = {
+    ["Action Bars"] = "Панели действий",
+    ["AddOns"] = "Аддоны",
+    ["Always"] = "Всегда",
+    ["Always Show ActionBars"] = "Всегда показывать панели действий",
+    ["Ambience Volume"] = "Громкость окружения",
+    ["Apply"] = "Применить",
+    ["Arc"] = "Дуга",
+    ["Attack on assist"] = "Атака при ассисте",
+    ["Audio"] = "Звук",
+    ["Auto Clear AFK"] = "Автоматически снимать AFK",
+    ["Auto Loot"] = "Автосбор добычи",
+    ["Auto Self Cast"] = "Автоприменение на себя",
+    ["Auto-Follow Speed"] = "Скорость автоследования",
+    ["Automatic"] = "Автоматически",
+    ["Automatic Quest Tracking"] = "Автоматическое отслеживание заданий",
+    ["Automatic fills your screen at its own resolution.\n\nPick a size to run the game in a window of that size instead. On Steam Deck and other handhelds the window is stretched to fill the screen. To keep fullscreen and only draw the 3D world at a lower or higher resolution, use Render Scale."] = "«Автоматически» заполняет экран в его собственном разрешении.\n\nВыберите размер, чтобы вместо этого запускать игру в окне этого размера. На Steam Deck и других портативных устройствах окно растягивается на весь экран. Чтобы сохранить полноэкранный режим и рисовать 3D-мир в меньшем или большем разрешении, используйте «Масштаб рендеринга».",
+    ["Block Trades"] = "Блокировать обмен",
+    ["Buff Durations"] = "Длительность положительных эффектов",
+    ["Camera Following Style"] = "Режим следования камеры",
+    ["Character Specific Key Bindings"] = "Привязки клавиш для персонажа",
+    ["Chat"] = "Чат",
+    ["Click-to-Move"] = "Движение по щелчку",
+    ["Close"] = "Закрыть",
+    ["Combat"] = "Бой",
+    ["Combat Text Float Mode"] = "Режим всплывающего боевого текста",
+    ["Controls"] = "Управление",
+    ["Defaults"] = "По умолчанию",
+    ["Detailed Loot Information"] = "Подробная информация о добыче",
+    ["Disable Spam Filter"] = "Отключить фильтр спама",
+    ["Display Mode"] = "Режим экрана",
+    ["Draws the 3D world at a fraction of the window's resolution, or larger than it. The interface is unaffected at any setting.\n\nBelow 100% trades sharpness for frame rate; above 100% is supersampling, which smooths edges at the cost of frame rate. Applies when you click Apply."] = "Рисует 3D-мир в масштабе от доли разрешения окна до значений больше него. На любой настройке интерфейс не затрагивается.\n\nНиже 100% — обмен чёткости на частоту кадров; выше 100% — суперсэмплинг, который сглаживает края ценой частоты кадров. Применяется при нажатии «Применить».",
+    ["Enable All Sound"] = "Включить весь звук",
+    ["Enable Ambience"] = "Включить звуки окружения",
+    ["Enable Error Speech"] = "Включить озвучивание ошибок",
+    ["Enable Floating Combat Text"] = "Включить всплывающий боевой текст",
+    ["Enable Music"] = "Включить музыку",
+    ["Enable Sound in Background"] = "Включить звук в фоне",
+    ["Enhanced Tooltips"] = "Улучшенные подсказки",
+    ["Environment Detail"] = "Детализация окружения",
+    ["Follow Terrain"] = "Следовать рельефу",
+    ["Game"] = "Игра",
+    ["Gameplay"] = "Игровой процесс",
+    ["Graphics"] = "Графика",
+    ["Guild Member Alert"] = "Оповещение о члене гильдии",
+    ["Head Bob"] = "Покачивание головы",
+    ["Instant Quest Text"] = "Мгновенный текст заданий",
+    ["Interface"] = "Интерфейс",
+    ["Invert Mouse"] = "Инверсия мыши",
+    ["Keeps the game's sound playing while you are working in another window.\n\nWith this off, switching away silences the game and switching back restores it. Sounds keep running while they are silenced, so a long one may have finished by the time you return."] = "Не прерывает звук игры, пока вы работаете в другом окне.\n\nЕсли выключено, при переключении в другое окно игра замолкает, а при возвращении звук восстанавливается. Звуки продолжают проигрываться беззвучно, поэтому длинный звук может закончиться к вашему возвращению.",
+    ["Keybindings"] = "Привязки клавиш",
+    ["Lightens or darkens the whole picture — nights, caves and interiors are what it is for.\n\nThis is the same correction 1.12 applied through the display's own gamma ramp, which it could only do in exclusive fullscreen. benilla applies it to the finished image instead, so it works in both display modes."] = "Осветляет или затемняет всю картинку — для ночей, пещер и помещений это и нужно.\n\nЭто та же коррекция, которую 1.12 применяла через гамма-кривую дисплея, что было возможно только в эксклюзивном полноэкранном режиме. benilla применяет её к готовому изображению, поэтому она работает в обоих режимах экрана.",
+    ["Lock ActionBars"] = "Закрепить панели действий",
+    ["Master Volume"] = "Общая громкость",
+    ["Max Camera Distance"] = "Макс. расстояние камеры",
+    ["Mouse Look Speed"] = "Скорость обзора мышью",
+    ["Mouse Sensitivity"] = "Чувствительность мыши",
+    ["Music Volume"] = "Громкость музыки",
+    ["NPC Names"] = "Имена NPC",
+    ["Nameplates"] = "Таблички имён",
+    ["Never"] = "Никогда",
+    ["No results found."] = "Ничего не найдено.",
+    ["Options"] = "Параметры",
+    ["Party"] = "Группа",
+    ["Party or Raid"] = "Группа или рейд",
+    ["Periodic Damage"] = "Периодический урон",
+    ["Pet Damage"] = "Урон питомца",
+    ["Player Guild Names"] = "Названия гильдий игроков",
+    ["Player Names"] = "Имена игроков",
+    ["Player Titles"] = "Звания игроков",
+    ["Profanity Filter"] = "Фильтр нецензурной лексики",
+    ["Raid"] = "Рейд",
+    ["Remove Chat Hover Delay"] = "Убрать задержку наведения на чат",
+    ["Render Scale"] = "Масштаб рендеринга",
+    ["Resolution"] = "Разрешение",
+    ["Scroll Down"] = "Прокрутить вниз",
+    ["Scroll Up"] = "Прокрутить вверх",
+    ["Search"] = "Поиск",
+    ["Search Results"] = "Результаты поиска",
+    ["Show Auras"] = "Показывать ауры",
+    ["Show Chat Bubbles"] = "Показывать чат-пузыри",
+    ["Show Combat State"] = "Показывать боевое состояние",
+    ["Show Combo Points"] = "Показывать очки серии",
+    ["Show Damage Reduction"] = "Показывать снижение урона",
+    ["Show Detailed Tooltips"] = "Показывать подробные подсказки",
+    ["Show Dodge/Parries/Misses"] = "Показывать уклонения/парирования/промахи",
+    ["Show Energy Gains"] = "Показывать прирост энергии",
+    ["Show Fading Auras"] = "Показывать угасающие ауры",
+    ["Show Friendly Healer Names"] = "Показывать имена дружественных целителей",
+    ["Show Honor Gained"] = "Показывать полученную честь",
+    ["Show Loading Screen Tips"] = "Показывать советы на экране загрузки",
+    ["Show Low Mana and Health"] = "Показывать низкую ману и здоровье",
+    ["Show Own Name"] = "Показывать своё имя",
+    ["Show Party Chat Bubbles"] = "Показывать чат-пузыри группы",
+    ["Show Reactive Spells and Abilities"] = "Показывать реактивные заклинания и способности",
+    ["Show Reputation"] = "Показывать репутацию",
+    ["Show Target Damage"] = "Показывать урон по цели",
+    ["Show Target of Target"] = "Показывать цель цели",
+    ["Show When"] = "Когда показывать",
+    ["Smart"] = "Умный",
+    ["Smart Pivot"] = "Умный поворот",
+    ["Solo"] = "Соло",
+    ["Sound Volume"] = "Громкость звука",
+    ["Status Bar Text"] = "Текст полосы состояния",
+    ["Sticky Targeting"] = "Фиксация цели",
+    ["System"] = "Система",
+    ["Terrain Distance"] = "Дальность прорисовки ландшафта",
+    ["UI Scale"] = "Масштаб интерфейса",
+    ["Vertical Sync"] = "Вертикальная синхронизация",
+    ["Water Collision"] = "Столкновение с водой",
+    ["Weather Intensity"] = "Интенсивность погоды",
+    ["Windowed"] = "В окне",
+    ["Windowed (Fullscreen)"] = "В окне (полный экран)",
+    ["Windowed (Fullscreen) fills the screen with a borderless window; Windowed runs in an ordinary one.\n\nThere is no exclusive fullscreen mode. WoW itself removed one in 8.0.1, and modern Classic offers these same two."] = "«В окне (полный экран)» заполняет экран окном без рамки; «В окне» работает в обычном окне.\n\nЭксклюзивного полноэкранного режима нет. Сама WoW убрала его в 8.0.1, и современный Classic предлагает те же два режима.",
+    ["Show Bottom Left ActionBar"] = "Показывать нижнюю левую панель действий",
+    ["Show Bottom Right ActionBar"] = "Показывать нижнюю правую панель действий",
+    ["Show Right ActionBar"] = "Показывать правую панель действий",
+    ["Show Right ActionBar 2"] = "Показывать правую панель действий 2",
+    ["Show Cloak"] = "Показывать плащ",
+    ["Show Helm"] = "Показывать шлем",
+    ["Enemy Name Plates"] = "Таблички имён противников",
+    ["Friendly Name Plates"] = "Таблички имён дружественных",
+    ["Brightness"] = "Яркость",
+    ["Low"] = "Низкая",
+    ["Medium"] = "Средняя",
+    ["High"] = "Высокая",
+    ["Minimal"] = "Минимальная",
+    ["Full"] = "Полная",
+    ["Show Tutorials"] = "Показывать обучение",
+    ["Tip of the Day"] = "Совет дня",
+    ["Newbie Tips"] = "Советы новичкам",
+    ["Unbind Key"] = "Отвязать клавишу",
+    ["Spell Detail"] = "Детализация заклинаний",
+    ["Click this to toggle between general key bindings and key bindings specific to this character."] = "Нажмите здесь, чтобы переключаться между общими привязками клавиш и привязками для этого персонажа.",
+    ["yards"] = "ярды",
+}
+
+local OPTIONS = VanillaBonkLocale.language == "zhCN" and BENILLA_OPTIONS_ZHCN or VanillaBonkLocale.language == "ruRU" and BENILLA_OPTIONS_RURU
+
 local function TranslateOptions(frame)
     if frame.GetText and frame.SetText then
         local text = frame:GetText()
-        local translated = text and BENILLA_OPTIONS_ZHCN[text]
+        local translated = text and OPTIONS[text]
         if translated then
             frame:SetText(translated)
         end
@@ -361,7 +518,7 @@ local function TranslateOptions(frame)
             local region = regions[index]
             if region.GetText and region.SetText then
                 local text = region:GetText()
-                local translated = text and BENILLA_OPTIONS_ZHCN[text]
+                local translated = text and OPTIONS[text]
                 if translated then
                     region:SetText(translated)
                 end
@@ -376,7 +533,7 @@ local function TranslateOptions(frame)
     end
 end
 
-if VanillaBonkLocale.language == "zhCN" then
+if OPTIONS then
     local ticker = CreateFrame("Frame")
     local nextCheck = GetTime() + 0.5
     ticker:SetScript("OnUpdate", function()
@@ -392,7 +549,7 @@ if VanillaBonkLocale.language == "zhCN" then
     local originalSetText = GameTooltip.SetText
     GameTooltip.SetText = function(tooltip, text, red, green, blue, wrap)
         if BenillaOptionsFrame and BenillaOptionsFrame:IsShown() and type(text) == "string" then
-            text = BENILLA_OPTIONS_ZHCN[text] or text
+            text = OPTIONS[text] or text
         end
         return originalSetText(tooltip, text, red, green, blue, wrap)
     end
@@ -401,7 +558,7 @@ if VanillaBonkLocale.language == "zhCN" then
     local originalAddButton = UIDropDownMenu_AddButton
     UIDropDownMenu_AddButton = function(info, level)
         if type(info) == "table" and type(info.text) == "string" then
-            info.text = BENILLA_OPTIONS_ZHCN[info.text] or info.text
+            info.text = OPTIONS[info.text] or info.text
         end
         return originalAddButton(info, level)
     end
