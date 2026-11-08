@@ -547,8 +547,7 @@ if (Test-Path $outDir) { Remove-Item $outDir -Recurse -Force }
 New-Item -ItemType Directory -Force $assetsDir | Out-Null
 
 $operatingSystems = @(
-    [pscustomobject]@{ Name = 'windows'; Manifest = 'manifest.json'; ZipSuffix = ''; Launcher = 'HoALauncher.exe'; Download = 'HoALauncher.exe' },
-    [pscustomobject]@{ Name = 'linux'; Manifest = 'manifest-linux.json'; ZipSuffix = '-linux'; Launcher = 'HoALauncher'; Download = 'HoALauncher-linux.tar.gz' }
+    [pscustomobject]@{ Name = 'windows'; Manifest = 'manifest.json'; ZipSuffix = ''; Launcher = 'HoALauncher.exe'; Download = 'HoALauncher.exe' }
 )
 $previousByOs = @{}
 foreach ($os in $operatingSystems) {
@@ -668,7 +667,7 @@ foreach ($os in $operatingSystems) {
 $notesPath = Join-Path $outDir 'notes.md'
 $releaseBody = $currentNotes.notes
 if ($launcherHashes.Count) {
-    $releaseBody += "`n`n---`n`nNew here? On Windows, download ``HoALauncher.exe`` below and put it in your World of Warcraft 1.12.1 folder. On Linux and Steam Deck, unpack ``HoALauncher-linux.tar.gz`` into that folder and run ``HoALauncher``. Already playing? The launcher updates itself.`n`n" + ($launcherHashes -join "`n`n")
+    $releaseBody += "`n`n---`n`nNew here? On Windows, download ``HoALauncher.exe`` below and put it in your World of Warcraft 1.12.1 folder. Already playing? The launcher updates itself.`n`n" + ($launcherHashes -join "`n`n")
 }
 [System.IO.File]::WriteAllText($notesPath, $releaseBody + "`n")
 
