@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.5
+- Russian localization.
+
 ## 0.6.4
 
 ### Hardcore Mode
